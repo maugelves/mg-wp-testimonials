@@ -47,7 +47,7 @@ if( function_exists('acf_add_local_field_group') ):
 			array (
 				'key' => 'field_595b6ddbdeafa',
 				'label' => 'Puesto',
-				'name' => 'puesto',
+				'name' => 'mgtestimonial_puesto',
 				'type' => 'text',
 				'instructions' => 'Indique el puesto o el cargo de la persona',
 				'required' => 0,
