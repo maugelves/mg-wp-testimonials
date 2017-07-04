@@ -119,7 +119,8 @@ class Testimonials
 		$mauricio = 'hola';
 		switch ( $column_name ):
 			case 'featured':
-				the_post_thumbnail();
+				$args = array(100, 'auto');
+				the_post_thumbnail( $args );
 				break;
 			case 'testimonial':
 				the_field('mgtestimonial_testimonio', $post_ID);
