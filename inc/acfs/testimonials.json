@@ -4,6 +4,25 @@
         "title": "Testimonios",
         "fields": [
             {
+                "key": "field_595b6dc5deaf9",
+                "label": "Empresa",
+                "name": "mgtestimonial_empresa",
+                "type": "text",
+                "instructions": "Indique el nombre de la empresa",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
                 "key": "field_595b5b4bf85b2",
                 "label": "Testimonio",
                 "name": "mgtestimonial_testimonio",
@@ -21,6 +40,25 @@
                 "maxlength": "",
                 "rows": 5,
                 "new_lines": "br"
+            },
+            {
+                "key": "field_595b6ddbdeafa",
+                "label": "Puesto",
+                "name": "puesto",
+                "type": "text",
+                "instructions": "Indique el puesto o el cargo de la persona",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
             }
         ],
         "location": [
